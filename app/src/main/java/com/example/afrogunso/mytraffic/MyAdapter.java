@@ -9,9 +9,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-/**
- * Created by afrogunso on 12/22/2015.
- */
+
 public class MyAdapter extends BaseAdapter {
 
     //Explicit
@@ -53,7 +51,7 @@ public class MyAdapter extends BaseAdapter {
 
         // For Detail
         TextView detailTextView = (TextView) objView.findViewById(R.id.textView3);
-        detailTextView.setText(titleStrings[position]);
+        detailTextView.setText(detailStrings[position]);
 
         // For Icon
         ImageView iconImageView = (ImageView) objView.findViewById(R.id.imageView);
